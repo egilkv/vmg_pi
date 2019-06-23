@@ -33,8 +33,8 @@
 
 class VmgDlgImpl : public VmgDlg {
    public:
-    VmgDlgImpl(wxWindow *parent, wxWindowID id = wxID_ANY, const wxString &title = _("OpenCPN Debugger"),
-                           const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxSize(701, 370),
+    VmgDlgImpl(wxWindow *parent, wxWindowID id = wxID_ANY, const wxString &title = _("VMG"),
+			   const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxSize(300, 370),
                            long style = wxDEFAULT_DIALOG_STYLE);
     void SetGPSMessage(wxString &msg);
     void SetSpeedEvent(float speed, float course);

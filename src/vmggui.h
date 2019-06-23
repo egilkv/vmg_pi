@@ -62,8 +62,8 @@ class VmgDlg : public wxDialog {
     wxString m_empty;
 
    public:
-    VmgDlg(wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("OPENCPN Debugger"),
-                       const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize(701, 370),
+    VmgDlg(wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = _("VMG"),
+		       const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize(300, 370),
                        long style = wxDEFAULT_DIALOG_STYLE | wxRESIZE_BORDER);
     ~VmgDlg();
 };
